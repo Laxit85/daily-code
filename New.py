@@ -23,3 +23,13 @@ def n_sum(*elements):
         a += i
     return a
 
+
+
+def print_details(**details):
+    for key, value in details.items():
+        print(f"{key} is {value}")
+
+
+# Examples of calling the function with different numbers of keyword arguments
+print_details(ID=101, name="ABC", price=100)
+print_details(ID=102, name="XYZ")
