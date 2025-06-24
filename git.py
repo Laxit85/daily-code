@@ -60,3 +60,9 @@ def solid_diamond_number(n):
         for k in range(2*i - 1):
             print(i, end='')
         print()
+        
+
+
+
+
+
