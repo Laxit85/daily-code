@@ -33,3 +33,19 @@ def print_details(**details):
 # Examples of calling the function with different numbers of keyword arguments
 print_details(ID=101, name="ABC", price=100)
 print_details(ID=102, name="XYZ")
+
+#find palendrom
+
+
+def fun():
+    n = input()
+    n = n.upper() #for convertin full string to upper case
+    rev = ""
+    for i in n:
+        rev = i + rev #reversing the string
+    if rev == n:
+        print("True")
+    else:
+        print("False")
+
+fun() # calling the function
